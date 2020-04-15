@@ -3,10 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
+    <meta name="description" content="to jest opis mojej strony">
 </head>
 <body>
-    hello <b>world</b>.
+    <H1>to jest nagłówek</H1>
+    <H2>to jest nagłówek</H2>
+    <H3>to jest nagłówek</H3>
+    <H4>to jest nagłówek</H4>
+    <H5>to jest nagłówek</H5>
+    <H6>to jest nagłówek</H6>
+<p>
+    Lorem&nbsp;ipsum dolor sit amet consectetur adipisicing elit. Soluta delectus eaque expedita hic, eum nostrum voluptate, vero et adipisci saepe architecto perferendis repellat ut voluptas facere consequatur. In, facilis quaerat.
+</p>
+<!-- encja &nbsp twarda spaca. Każdy znak ma swoją encję -->
+<!-- p t akapit -->
+<p>
+    Lorem ipsum <br> dolor sit amet consectetur adipisicing elit. Soluta delectus eaque expedita hic, eum nostrum voluptate, vero et adipisci saepe architecto perferendis repellat ut voluptas facere consequatur. In, facilis quaerat.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab sequi sunt fugit vero sint atque adipisci corporis consequatur pariatur cupiditate quibusdam fuga, optio maiores minima maxime doloribus repudiandae. Facilis, nostrum.
+<!-- przejdz do nowej linii znacznik <br> -->
+<br>
+    <b> Lorem ipsum, dolor </b> sit amet consectetur adipisicing elit. <i> Excepturi, nulla fugiat totam amet a praesentium? </i> Quibusdam at earum dolorum dolores veniam pariatur atque accusamus! Molestiae, dignissimos quasi. <u> Expedita, corrupti alias. </u>
+
+    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quas est iure excepturi mollitia eveniet maiores consequatur laudantium,</strong> distinctio cum minima necessitatibus quasi non! Eligendi eos <em>velit ex asperiores nemo.</em>
+</p>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta delectus eaque expedita hic, eum nostrum voluptate, vero et adipisci saepe architecto perferendis repellat ut voluptas facere consequatur. In, facilis quaerat.
+</p>
+<!-- lista wypunktowana -->
+<ul>
+    <li>wiosna</li>
+    <li>lato</li>
+    <li>jesień</li>
+    <li>zima</li>
+</ul>
+<!-- lista numerowana -->
+<ol>
+    <li>wiosna
+        <ul>
+            <li>kwiecień</li>
+            <li>maj</li>
+            <li>czerwiec</li>
+        </ul>
+    </li>
+    <li>lato</li>
+    <li>jesień</li>
+    <li>zima</li>
+</ol>
+<!-- tabele -->
+<table border="1">
+    <!-- tr rząd w tabeli i td komórka w wierszu -->
+    <tr>
+        <td colspan="3">1</td>
+        <!-- scalanie komórek i wierszy -->
+        <td>4</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td rowspan="4">21</td>   
+        <td>31</td>
+        <td>41</td>
+        <td>51</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <!-- <td>22</td> -->
+        <td>32</td>
+        <td>42</td>
+        <td>52</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <!-- <td>23</td> -->
+        <td>33</td>
+        <td>43</td>
+        <td>53</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <!-- <td>21</td> -->
+        <td>31</td>
+        <td>41</td>
+        <td>51</td>
+    </tr>
+    <tr>
+   <!-- td{komórka $}*5  -->
+       <td>komórka 1</td>
+       <td>komórka 2</td>
+       <td>komórka 3</td>
+       <td>komórka 4</td>
+       <td>komórka 5</td>
+    </tr>
+</table>
+<h2>odnośnik</h2>
+<!-- adres bezwzględny - pełny adres zaczynający się od protokołu -->
+<a href="https://www.google.pl">przejdź do google.pl</a>
+<!-- adresy względny -->
+<a href="galeria.html">przejdż do galerii</a>
+
+<!-- odnośnik do maila -->
+napisz do mnie <a href="mailto:r.brzegowy@gmail.com">r.brzegowy@gmail.com</a>
+
+<a href="https://www.google.pl" target="blank">przejdź do google.pl</a>
 </body>
 </html>
 <!-- ctl +/ daje komentarz -->

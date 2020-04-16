@@ -1,0 +1,48 @@
+body {
+    background: indigo;
+}
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    height: 150px;
+    background: lightblue;
+}
+nav {
+    display: flex;
+    /* zawijanie wierszy */
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+/* każdy a wewnątrz nav */
+nav a {
+    margin: 0 5px;
+}
+section {
+    display: flex;
+    /* kierunek układania elementów */
+    /* flex-direction: column; */
+}
+
+aside {
+    width: 150px;
+    height: 500px;
+    background: lightcoral;
+}
+
+article {
+    width: 1700px;
+    height: 500px;
+    background: lightgray;
+}
+#right-panel {
+    width: 150px;
+    height: 500px;
+    background: lightgreen;
+}
+footer {
+    height: 150px;
+    background: lightyellow;
+}

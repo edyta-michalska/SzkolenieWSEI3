@@ -1,0 +1,30 @@
+span {
+    color: red;
+}
+div {
+    background: grey;
+}
+#blok-model {
+    width: 200px;
+    height: 200px;
+    background: rgb(205, 92, 190);
+    /* marginesy wewnętrzne */
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px; */
+
+    /* padding dookoła */
+    padding: 20px;
+/* 15px góra/dół, 30px lewo /prawo */
+    /* padding: 15px 30px; */
+
+/* kolejność góra prawo dół lewo */
+/* padding: 20px 30px 10px 50px */
+
+/* kolejnosc szerokość styl kolor */
+/* style solid dotted dashed */
+border: 10px solid black;
+
+margin: 30px;
+}

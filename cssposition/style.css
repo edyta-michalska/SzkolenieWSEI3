@@ -1,0 +1,42 @@
+body {
+    background: grey;
+    display: flex;
+}
+main {
+background: lightblue;
+width: 1000px;
+height: 800px;
+position: relative;
+
+}
+main div {
+    width: 150px;
+    height: 150px;
+    position: relative;
+  
+}
+#a1 {
+    background: lightpink;
+position: absolute;
+top: 0;
+left: 0;
+}
+#a2 {
+    background: limegreen;
+    /* top: 100px;
+    left: 50px; */
+    position: absolute;
+   top: 50px;
+   left: 50px;
+}
+#a3 {
+    background: darkolivegreen;
+    position: absolute;
+   top: 100px;
+   left: 100px;
+}
+#a4 {
+    background: yellow;
+    top: 150px;
+    left: 150px;
+}

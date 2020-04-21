@@ -1,10 +1,25 @@
 body {
     display: flex;
     justify-content: center;
-    color: #2d3438
+    color: #2d3438;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+#background {
+    background: url(assets/masthead@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
 }
 a {
-    color: #2d3438
+    color: #2d3438;
+   text-decoration: none;
 }
 main {
     width: 1140px;
@@ -12,6 +27,11 @@ main {
 header {
     display: flex;
     justify-content: space-between;
+    padding: 60px 0 45px;
+    border-bottom: 1px solid #f5f5f5;
+}
+nav {
+    margin-top: 10px;
 }
 nav a 
 {
@@ -19,17 +39,51 @@ nav a
     padding: 6px 24px;
     margin: 6px;
     border-radius: 2px;
-
+font-family: 'Roboto condensed', sans-serif;
+font-weight: 700;
 }
 nav a:hover {
     background: #646d72;
+    color: #fff;
 }
 nav a.activ {
     background: #ffc000;
     color: #fff;
 }
 
-}
+
 #logo {
     width: 131px;
+}
+#head {
+    color: #fff;
+    margin-top: 200px;
+    font-size: 18px;
+    width: 740px;
+}
+h1 {
+    font-size: 96px;
+    font-weight: bold;
+    margin: 25px 0 15px;
+}
+h2 {
+    font-size: 28px;
+    font-family: 'Aleo', serif;
+    font-style: italic;
+color: #e2e2e2;
+font-weight: 400px;
+
+}
+.Spaceballs {
+    font-size: 24px;
+    font-weight: 900;
+}
+#head a {
+    color: #3c4a52;
+    font-weight: 700;
+
+}
+
+#head a:hover {
+    color: #ffc000;
 }

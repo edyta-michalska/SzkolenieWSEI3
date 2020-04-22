@@ -1,0 +1,46 @@
+body {
+    background: indigo;
+}
+main {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 150px 700px 150px;
+    grid-template-rows: 150px 500px 150px;
+    grid-template-areas: 
+    "header header header"
+    "aside article rpanel"
+    "footer footer footer"
+    ;
+}
+header {
+    grid-area: header;
+    background: lightblue;
+}
+nav {
+    display: flex;
+    /* zawijanie wierszy */
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+/* każdy a wewnątrz nav */
+nav a {
+    margin: 0 5px;
+}
+aside {
+    background: lightcoral;
+    grid-area: aside;
+}
+
+article {
+grid-area: article;
+    background: lightgray;
+}
+#right-panel {
+ grid-area: rpanel;
+    background: lightgreen;
+}
+footer {
+grid-area: footer;
+    background: lightyellow;
+}

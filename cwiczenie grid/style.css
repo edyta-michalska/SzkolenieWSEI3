@@ -98,3 +98,13 @@ footer .head {
    "address address";
     }
 }
+@media (min-width: 800px) {
+    main {
+        width: 600px;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-areas: 
+   "date date date"
+   "news logo logo"
+   "news nav address";
+    }
+}

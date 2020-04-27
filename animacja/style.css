@@ -1,0 +1,40 @@
+body {
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.anim {
+    transition: all 1s linear;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.anim:hover {
+    background: #fff;
+    color: #000;
+}
+.box {
+    width: 300px;
+    height: 20px;
+    border: 10px solid #fff;
+background: lightcoral;
+margin: 10px;
+position: relative;
+left: 0px;
+/* transition: all 1s ease-in-out; */
+transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.box.b1:hover {
+background: red;
+}
+.box.b2:hover {
+    left: 150px;
+}
+.box.b3 div {
+    background: red;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    transition: all 1s ease-in-out;
+}
+.box.b3:hover div {
+    width: 100%;
+}
